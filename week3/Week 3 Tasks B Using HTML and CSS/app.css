@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+main {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    border-top: 5px solid #fc5c7d;
+    margin-top: 50px;
+}
+
+main h2 {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+main h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #fc5c7d, #6a82fb);
+}
+
+main p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+input, select {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 100%;
+    min-height: 44px;
+    border-radius: 10px;
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+    border: unset;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+.button {
+    background: linear-gradient(135deg, #fc5c7d, #6a82fb);
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 14px 22px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.button:hover {
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+.success {
+    color: #9ABC66;
+    font-size: 100px;
+    line-height: 150px;
+    margin-left: -15px;
+}
+
+.text-center {
+    text-align: center;
+}
